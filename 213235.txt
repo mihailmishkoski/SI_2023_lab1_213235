@@ -1,0 +1,39 @@
+Документација за изработка на лаб1 по предметот Софтверско инженерство
+
+1. Направив локален директориум со исто име како remote repо и го иницијализирав
+mkdir SI_2023_lab1_213235
+git cd SI_2023_lab1_213235
+git init
+2. Го поврзав remote repo со local repo
+git remote add origin https://github.com/mihailmishkoski/SI_2023_lab1_213235.git
+3. Додадов нов фајл и направив commit.
+git add --all
+git commit -m "Initial commit"
+4. Додадов и нов фајл SILab1.java и на истата направив commit
+git add SILab1.java
+git commit -m "Add java class"
+5. Направив 3 нови гранки кои се разгрануваат од master 
+git branch bug1
+git branch bug2
+git branch bug3
+6. Се префрлив на гранка bug1
+git checkout bug1
+7. Ја поправив грешката и потоа ја додадов и направив commit
+git add SILab1.java
+git commit -m "Fix wrong loop for reading", истото го направив и за bug2 и bug3.
+8. Се префрлив на master и направив синхронизација
+git push origin master
+9. Ја споив гранката bug1 кон master
+git merge bug1
+10. Ja споив гранката bug2 кон master
+git merge bug2
+11. Се префрлив на гранката bug3
+12. git checkout bug3
+13. Направив rebase спрема гранката master
+git rebase master
+14. Се префрлив на гранката master
+git checkout master
+15. Направив спојување на гранката bug3 кон гранката master
+git merge bug3
+16. Ги синхронизирав сите гранки
+git push origin master

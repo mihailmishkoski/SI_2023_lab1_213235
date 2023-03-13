@@ -1,0 +1,22 @@
+commit 9c7e3750099cf89e2e98466a51a9d6f116c50634 (HEAD -> master, origin/master, bug3)
+Author: Mihail Mishkoski <miskoski555@gmail.com>
+Date:   Mon Mar 13 17:45:57 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 0ef98f6d6e04b908db794ff0b4112a18255f1de0
+Merge: cb90e29 52ea73a
+Author: Mihail Mishkoski <miskoski555@gmail.com>
+Date:   Mon Mar 13 17:49:37 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 52ea73a51646c4e49444e2b690e4d2e4f3271826 (origin/bug2, bug2)
+Author: Mihail Mishkoski <miskoski555@gmail.com>
+Date:   Mon Mar 13 17:44:55 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit cb90e299147db7d3bb63ec1d2f7736d39f2e7d52 (origin/bug1, bug1)
+Author: Mihail Mishkoski <miskoski555@gmail.com>
+Date:   Mon Mar 13 17:43:44 2023 +0100
